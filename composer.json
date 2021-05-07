@@ -1,0 +1,27 @@
+{
+  "name": "proklung/jedi-light",
+  "description": "Light version of Jedi",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gavrilov Fedy",
+      "email": "fedor.gavrilov.75@mail.ru"
+    }
+  ],
+
+  "support": {
+    "issues": "https://github.com/ProklUng/jedi-light/issues",
+    "source": "https://github.com/ProklUng/jedi-light"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prokl\\JediLight\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.1 | 8.*",
+    "symfony/filesystem": "^4.0 || ^5.0",
+    "symfony/console": "^4.0 || ^5.0"
+  }
+}
