@@ -9,6 +9,17 @@
 
 ## Установка
 
+composer.json:
+
+```json
+ "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/proklung/jedi-light"
+    }
+  ]
+```
+
 ```bash
 composer require proklung/jedi-light
 ```
