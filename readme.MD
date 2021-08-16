@@ -32,4 +32,8 @@ composer require proklung/jedi-light
 
 `php bin/jedi env:init default`
 
+Второй вариант:
+
+`./vendor/bin/jedi env:init default`
+
 Скопирует в `bitrix` все, что лежит в соответствующих папках директории `environments/default`.
